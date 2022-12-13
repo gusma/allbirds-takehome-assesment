@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "settings": {
+    "react": { "version": "detect" }
+  },
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "prettier/prettier": 2,
+    "space-before-function-paren": "off",
+    "react/prop-types": "off",
+    "no-use-before-define": "off"
+  }
+}
